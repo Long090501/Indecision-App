@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not found page component render correctly 1`] = `
+<div>
+  404! - 
+  <Component
+    to="/"
+  >
+    Go home
+  </Component>
+</div>
+`;
