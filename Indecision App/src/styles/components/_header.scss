@@ -1,0 +1,27 @@
+.header {
+    background-color: $my-black;
+    color: white;
+    margin-bottom: 4.8rem;
+    padding: $my-space 0;
+
+    .title {
+        font-size: 3.2rem;
+        margin: 0;
+    }
+
+    .subtitle {
+        color: $my-purple;
+        font-size: $my-space;
+        font-weight: 500;
+        margin: 0;
+    }
+}
+
+@media (max-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $my-space;
+    }
+}
+
+
+

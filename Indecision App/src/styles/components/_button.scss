@@ -1,0 +1,47 @@
+.todo-button {
+    background-color: $purple;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 0.6rem solid darken($purple, 10%);
+    font-size: 3.6rem;
+    width: 100%;
+    margin-bottom: 4.8rem;
+    padding: 2.4rem;
+    cursor: pointer;
+}
+
+@media (max-width: $desktop-breakpoint) {
+    .todo-button {
+        margin-bottom: $my-space;
+    }
+}
+
+
+.todo-button:disabled {
+    opacity: 0.5;
+}
+
+.add-button {
+    background-color: $purple;
+    color: #fff;
+    border: none;
+    border-bottom: 0.3rem solid darken($purple, 10%);
+    font-weight: 500;
+    padding: 1.2rem;
+}
+
+.remove-button {
+    background: none;
+    border: none;
+    color: $my-purple;
+    padding: 0;
+}
+
+.modal-button {
+    background-color: $purple;
+    color: #fff;
+    border: none;
+    border-bottom: 0.3rem solid darken($purple, 10%);
+    font-weight: 500;
+    padding: 1.2rem;
+}
